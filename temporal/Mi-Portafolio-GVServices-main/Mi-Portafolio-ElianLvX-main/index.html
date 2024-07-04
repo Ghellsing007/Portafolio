@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/transition.css">
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin="" defer></script>
+    <title> Portafolio</title>
+</head>
+
+<body>
+
+
+    <main class="bg-main">
+        <div class="contenedor">
+
+            <div class="contenido">
+                <div class="contenedorPresentacion">
+
+                    <h2>Hello World, <span class="titulo">I'm Garving Vasquez Severino</span></h2>
+                    <h4 class="titulo">I'm a Full Stack Web Developer</h4>
+                    <div class="justificado">
+                    <p>
+                         I am a <strong>Full Stack Web Developer</strong> with technologies like <strong>MERN: MongoDB, Express.js, React.js, Node.js</strong>. My goal is to create web solutions for specific or general situations or environments.
+                            In addition to my skills in JavaScript, I have a foundation in <strong>C#, .NET, and SQL and NoSQL database management</strong>, which allows me to collaborate with different developers in various environments and thus understand the interaction between frontend and backend. Currently, I am studying
+                             <strong>Software Engineering</strong>. I am excited to apply my skills and knowledge to solve real-world challenges. In the future, I aim to specialize further and contribute more to different types of developments.
+                    
+                    
+                     </p>
+                    
+                </div>
+
+                <div class="theme-wrapper">
+                    
+                    <button class="button-18" role="button" onclick="cambiarIdioma()">Change Language</button>
+
+                  </div>
+                    
+                    <h4 class="titulo">Skills:</h4>
+
+                    <!-- Skills -->
+                    <div class="skills">
+
+               
+                        <div class="columna">
+                            <p class="texto-center">programming language</p>
+                            <div class="fila lenguajes contr">
+
+                                <img class="html" src="images/icons8-html-48.svg" alt="HTML" title="HTML"> <!-- HTML -->
+                                <img class="css" src="images/icons8-css-48.svg" alt="CSS" title="CSS"> <!-- CSS -->
+                                <img class="js" src="images/icons8-javascript-48.svg" alt="JavaScript" title="JavaScript"> <!-- JavaScript -->
+                                <img class="CSharp" src="images/csharp-svgrepo-com.svg" alt="C#" title="C#"> <!-- C Sharp -->
+                                
+                            </div>
+                        </div>
+
+                        <div class="columna">
+                            <p class="texto-center">Frameworks</p>
+                            <div class="fila frameworks contr">
+                                <img class="React" src="images/react-svgrepo-com.svg" alt="React" title="React">
+                                <img class="NET" src="images/dotnet-svgrepo-com.svg" alt=".NET" title=".NET">
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                    
+                    <div class="columna">
+                        <p class="texto-center">Tools</p>
+                        <div class="fila frameworks contr">
+                            <img class="Node" src="images/node-js-svgrepo-com.svg" alt="Node.js" title="Node.js">
+                            <img class="MongoDB" src="images/mongodb-svgrepo-com.svg" alt="MongoDB" title="MongoDB">
+                            <img class="SQLserver" src="images/sql-svgrepo-com.svg" alt="SQLserver" title="SQLserver">
+                            <img class="git" src="images/git-svgrepo-com.svg" alt="Git" title="Git">
+                        </div>
+                    </div>
+
+                    <hr>
+                    <p>Visita mi - <a href="https://github.com/Ghellsing007" target="_blank">GitHub</a></p>
+
+                </div>
+
+                <nav class="menu">
+                    <img src="/images/236826071_3327509340809256_4258306061589731265_n.jpg" alt="???">
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                    <a href="contacto.html">
+                        <i class="fa-solid fa-address-book"></i>
+                        Contacts
+                    </a>
+                    <a href="/files/CV GARVING VASQUEZ SEVERINO CURRICULUM.pdf" download="CV GARVING VASQUEZ SEVERINO CURRICULUM.pdf">
+                        <i class="fa-solid fa-file"></i>
+                        Mi CV
+                    </a>
+                </nav>
+                
+            </div>
+
+        </div>
+    </main>
+
+    <script src="/js/skills.js"></script>
+</body>
+</html>
